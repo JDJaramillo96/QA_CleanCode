@@ -1,4 +1,6 @@
-//Tile class -----------------------------------------------------------------------------------------
+///<sumary>
+///This is the Tile class, for the Tile object
+///</sumary>
 public class Tile
 {
     private int position = new int[2];
@@ -20,7 +22,9 @@ public class Tile
     }
 }
 
-//TileMap class -----------------------------------------------------------------------------------------
+///<sumary>
+///This is the Tile Map class, that allow you create a Tile Map
+///</sumary>
 public class TileMap
 {
     private Tile [][] tiles;
@@ -89,7 +93,9 @@ public class TileMap
     }
 }
 
-//Player class -----------------------------------------------------------------------------------------
+///<sumary>
+///This is the Player class, for the Player object
+///</sumary>
 public class Player
 {
     private int[] position = new int[2];
@@ -121,7 +127,9 @@ public class Player
     }
 }
 
-//Direction enum -----------------------------------------------------------------------------------------
+///<sumary>
+///This is the Direction enum, that is use on Tile Map class
+///</sumary>
 public enum Direction
 {
     Left,
